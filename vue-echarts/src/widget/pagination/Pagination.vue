@@ -46,7 +46,8 @@
       /**
        * 创建页码列表
        */
-      createPageList(val) {
+      createPageList(val)
+      {
         let start = 1;
         if (val < 1) {
           val = 1;
