@@ -32,23 +32,28 @@
     .layout-top
       width: 100%
       height: 60px
-      background-color: red
     .layout-middle
       width: 100%
+      min-height: 300px
       display: flex
       display: -webkit-flex
       flex: 1
-      background-color: blue
       .layout-middle-left
-        width: 200px
-        background-color: green
+        width: 300px
+        height: 100%
       .layout-middle-content
         flex: 1
+        height: 100%
       .layout-middle-right
-        width: 200px
-        background-color: green
+        width: 300px
+        height: 100%
     .layout-bottom
       width: 100%
       height: 200px
-      background-color: red
+      display: flex
+      display: -webkit-flex
+      .layout-bottom-left
+        width: 300px
+      .layout-bottom-right
+        flex: 1
 </style>

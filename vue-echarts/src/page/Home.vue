@@ -3,9 +3,7 @@
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
   import Pagination from '@/widget/pagination/Pagination'
-
   export default {
     name: "Home",
     data() {
@@ -20,7 +18,6 @@
       }
     },
     components: {
-      HelloWorld,
       Pagination
     }
   }

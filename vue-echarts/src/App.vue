@@ -3,12 +3,8 @@
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld'
   export default {
-    name: "App",
-    components: {
-      HelloWorld
-    }
+    name: "App"
   };
 </script>
 <style lang="css">
@@ -19,6 +15,7 @@
   html,body{
     width:100%;
     height:100%;
+    min-height: 600px;
   }
   ul{list-style:none}
   a{text-decoration: none;}

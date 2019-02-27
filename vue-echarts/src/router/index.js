@@ -1,7 +1,5 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "../page/Home";
-import MonitorScreen from "../page/MonitorScreen";
 
 Vue.use(Router);
 
@@ -12,12 +10,12 @@ export default new Router({
     {
       path: "/",
       name: "Home",
-      component: Home
+      component: resolve => require(['../page/Home'], resolve)
     },
     {
       path: "/monitor-screen",
       name: "MonitorScreen",
-      component: MonitorScreen
+      component: resolve => require(['../page/MonitorScreen'], resolve)
     }
   ]
 });
